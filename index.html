@@ -31,6 +31,7 @@
     <header id="header">
         <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
             <div class="container">
+<!--
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -40,6 +41,7 @@
                     </button>
                     <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                 </div>
+-->
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -47,8 +49,8 @@
 			<li class="scroll"><a href="#cta">Objective</a></li>
                         <li class="scroll"><a href="#features">Interests</a></li>
                         <li class="scroll"><a href="#portfolio">Projects</a></li>
-                        <li class="scroll"><a href="#services">Skills</a></li>
                         <li class="scroll"><a href="#meet-team">Industry Experience</a></li>
+                        <li class="scroll"><a href="#services">Skills</a></li>
                         <li class="scroll"><a href="#get-in-touch">Contact</a></li>                        
                     </ul>
                 </div>
@@ -218,6 +220,52 @@
             </div>
         </div><!--/.container-->
     </section><!--/#portfolio-->
+    <section id="meet-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Industry Experience</h2>
+                <p class="text-center wow fadeInDown">Over the past three years, Alfred has interned in a variety of different work environments, <br> inclduing academia, the research division of a large company, and a mid-sized company.</p>
+            </div>
+
+
+            <div class="row">
+                    <h3 class="column-title">Internships</h3>
+                    <div role="tabpanel">
+                        <ul class="nav main-tab nav-justified" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">Quantcast</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">TCL Research America</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">ASU</a>
+                            </li>
+                        </ul>
+                        <div id="tab-content" class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
+                                <p> <a href = "www.quantcast.com">Quantcast</a> is an adtech company that specializes in using big data to produce custom-targeted audience segments to advertisers. To do so, the company processes thirty pentabytes of data daily.  
+                                <p> At Quantcast, Alfred worked on the EDGE team to develop a distributed system that could support the transfer of terrabytes of data across hundreds of computers in data centers both in the United States and internationally. Through this process, Alfred has become familiar with working with distirbuted file systems, parallelization, and writing systems that scale at an industry level. He has also become familiar with automated deployment tools such as Jenkins and Puppet, and understands the power of well written and robust testing. </p>
+                                <p> Alfred worked at Quantcast from June 2015 to September 2015.
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
+                                <p> At TCL Research America, Alfred worked with video alignment software. </p>
+                                <p> Alfred worked there from June 2014 to September 2014. </p>  
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
+                                <p> Alfred worked in the BioDesign lab at ASU under Professor <a href = "www.yelab.net"> Ye JiePing </a>. There, he looked for patterns in the STAR*D depression study. </p> 
+                                <p> Alfred worked there from June 2013 to July 2013. </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#meet-team-->
+   </section>
 
     <section id="services" >
         <div class="container">
@@ -305,52 +353,6 @@
         </div><!--/.container-->
     </section><!--/#services-->
 
-    <section id="meet-team">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Industry Experience</h2>
-                <p class="text-center wow fadeInDown">Over the past three years, Alfred has interned in a variety of different work environments, <br> inclduing academia, the research division of a large company, and a mid-sized company.</p>
-            </div>
-
-
-            <div class="row">
-                    <h3 class="column-title">Internships</h3>
-                    <div role="tabpanel">
-                        <ul class="nav main-tab nav-justified" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">Quantcast</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">TCL Research America</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">ASU</a>
-                            </li>
-                        </ul>
-                        <div id="tab-content" class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
-                                <p> <a href = "www.quantcast.com">Quantcast</a> is an adtech company that specializes in using big data to produce custom-targeted audience segments to advertisers. To do so, the company processes thirty pentabytes of data daily.  
-                                <p> At Quantcast, Alfred worked on the EDGE team to develop a distributed system that could support the transfer of terrabytes of data across hundreds of computers in data centers both in the United States and internationally. Through this process, Alfred has become familiar with working with distirbuted file systems, parallelization, and writing systems that scale at an industry level. He has also become familiar with automated deployment tools such as Jenkins and Puppet, and understands the power of well written and robust testing. </p>
-                                <p> Alfred worked at Quantcast from June 2015 to September 2015.
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
-                                <p> At TCL Research America, Alfred worked with video alignment software. </p>
-                                <p> Alfred worked there from June 2014 to September 2014. </p>  
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
-                                <p> Alfred worked in the BioDesign lab at ASU under Professor <a href = "www.yelab.net"> Ye JiePing </a>. There, he looked for patterns in the STAR*D depression study. </p> 
-                                <p> Alfred worked there from June 2013 to July 2013. </p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#meet-team-->
-   </section>
 
     <section id="get-in-touch">
         <div class="container">
